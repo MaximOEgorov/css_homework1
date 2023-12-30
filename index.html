@@ -16,9 +16,14 @@
         <a href="">
             <img class="logo" src="./assets/Logo.svg" alt="Logo">
         </a>
+        <!--<img class="menu-icon" src="./assets/menu-burger.svg" alt="menu-icon">-->
+        <input id="menu__toggle" type="checkbox"/>
+        <label class="menu__btn" for="menu__toggle">
+            <span></span>
+        </label>
         <ul class="menu">
             <li class="menu_item"><a href="#main" accesskey="M">Main</a></li>
-            <li class="menu_item"><a href="#rates" accesskey="R">Raits</a></li>
+            <li class="menu_item"><a href="#rates" accesskey="R">Rates</a></li>
             <li class="menu_item"><a href="#create" accesskey="C">Create Account</a></li>
         </ul>
     </div>
@@ -41,6 +46,7 @@
         <div class="rates-wrapper">
             <h2 class="title" id="rates">Rates</h2>
             <p class="text">Failure will never overtake me if my determination to succeed is strong enough.</p>
+            <div class="table-wrapper">
             <table class="table">
                 <tr>
                     <th class="table-subtitle gray">Features</th>
@@ -79,6 +85,7 @@
                     </td>
                 </tr>
             </table>
+            </div>
         </div>
     </div>
 </section>
@@ -86,7 +93,7 @@
     <div class="container">
         <div class="account-wrapper">
             <div class="account-info-wrapper">
-                <h2 class="title">Create your free account</h2>
+                <h2 class="title" id="create">Create your free account</h2>
                 <p class="text">Let us first talk about dreams. We all know that dreams do play a role in our daily
                     lives.
                     The
